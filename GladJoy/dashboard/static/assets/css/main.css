@@ -1,0 +1,85 @@
+/* My own css file mainly for the comment box */
+ .table-vertical-scroll{
+     overflow: scroll;
+    max-height: 300px;
+ }
+
+ .detailBox {
+    width:90%;
+    border:1px solid #bbb;
+    margin:20px;
+    border-radius: 25px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+    border-radius: 25px 25px 0px 0px
+    
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+    position: relative;
+}
+.commentList li > * {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+.likeButton{
+    position: absolute;
+    top:0;
+    right:0;
+   /* width: 10%;
+    height: 10%;
+    border:black;
+    margin: 5px; */
+}
